@@ -1,0 +1,55 @@
+/* Define o estilo global do corpo da página */
+body {
+    background-color: #1D4221; /* Cor de fundo escura para um tema de floresta */
+    color: #ffffff; /* Texto branco para contraste */
+    font-family: "Bai Jamjuree", sans-serif; /* Fonte personalizada */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta a altura para preencher a tela inteira */
+    margin: 0;
+}
+
+/* Estilo dos botões */
+button {
+    background-color: #64A712; /* Cor verde para os botões */
+    color: #ffffff; /* Texto dos botões em branco */
+    font-family: inherit; /* Usa a fonte do elemento pai para consistência */
+    border: none; /* Remove bordas padrão */
+    border-radius: 5px; /* Bordas arredondadas */
+    padding: 10px 20px; /* Espaçamento interno dos botões */
+    margin: 5px; /* Margem ao redor dos botões */
+    cursor: pointer; /* Cursor em forma de mão ao passar sobre o botão */
+    transition: background-color 0.3s ease; /* Transição suave para a cor de fundo */
+}
+
+/* Estilo dos botões ao passar o mouse */
+button:hover {
+    background-color: #4F8F14; /* Cor de fundo mais escura no hover */
+}
+
+/* Estilo das seções de passo */
+.passo {
+    display: none; /* Oculta todos os passos por padrão */
+}
+
+/* Estilo para o passo ativo */
+.passo.ativo {
+    display: block; /* Exibe apenas o passo ativo */
+}
+
+/* Estilo do contêiner principal */
+main {
+    text-align: center; /* Centraliza o texto dentro do contêiner */
+    max-width: 800px; /* Largura máxima do contêiner */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+    padding: 20px; /* Adiciona espaçamento interno */
+}
+
+/* Estilo das imagens */
+img {
+    max-width: 100%; /* Garante que as imagens não excedam a largura do contêiner */
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove o espaço abaixo da imagem */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
