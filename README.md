@@ -8,6 +8,10 @@
 
 <p align="center">Um projeto de criação de um jogo em HTML do Alura na escola E.E. Maria Cardoso Castilho.</p>
 
+<div align="center">
+  <a href="https://vinimendes00.github.io/PerdidosNaFloresta/" target="_blank"><img src="https://img.shields.io/badge/-Perdidos Na Floresta-4169e1?style=for-the-badge&logo=htmx&logoColor=white" target="_blank"></a>
+</div>
+
 <br>
 <br>
 
